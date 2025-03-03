@@ -27,6 +27,7 @@ function EmailTemplateList() {
     return (
         <div>
             <h2 className='font-bold text-xl text-primary mt-6'>Workspace</h2>
+            <p className='text-sm text-gray-600'>Note: If you don't see your name after "Hello" immediately after logging in, please refresh the page—it should then appear.</p>
             {emailList?.length == 0 ?
                 <div className='flex justify-center
                 mt-7 flex-col items-center '>
